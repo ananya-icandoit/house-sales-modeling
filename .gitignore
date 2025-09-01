@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+.vscode/
+__pycache__/
+
+# notebooks
+*.ipynb_checkpoints/
+
+# data (keep placeholder files)
+data/*
+!data/.gitkeep
+
+images/*
+!images/.gitkeep
