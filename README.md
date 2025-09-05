@@ -1,6 +1,6 @@
 # House Price Analysis in King County, Washington
 
-![king_county_.jpg](https://github.com/ananya-icandoit/house-sales-modeling/main/images/king_county_.jpg)
+![king_county_.jpg](https://raw.githubusercontent.com/ananya-icandoit/house-sales-modeling/refs/heads/main/images/king_county_.jpg)
 
 **By**: Ananya Kambhampati 
 
