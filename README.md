@@ -1,6 +1,6 @@
 # House Price Analysis in King County, Washington
 
-![king_county_.jpg](https://github.com/ananya-icandoit/house-sales-modeling/images/king_county_.jpg)
+![king_county_.jpg](https://github.com/ananya-icandoit/house-sales-modeling/main/images/king_county_.jpg)
 
 **By**: Ananya Kambhampati 
 
@@ -52,7 +52,7 @@ Includes only the continuous and discrete numerical values:
 * **Adjusted R-squared**: 60.68%
 
 * **Error**: _MAE_: 91417.36 USD, _RMSE_: 120635.48 USD
-![baseline_model_.png](https://github.com/ananya-icandoit/house-sales-modeling/images/baseline_model_.png)
+![baseline_model_.png](https://github.com/ananya-icandoit/house-sales-modeling/main/images/baseline_model_.png)
 
 ### Final Model
 
@@ -95,7 +95,7 @@ The final model, Model 7, includes existing columns from the original dataset as
 * **Adjusted R-squared**: 85.51%
 
 * **Error**: _MAE_: 52423.22 USD, _RMSE_: 74226.45 USD 
-![model_7.png](https://github.com/ananya-icandoit/house-sales-modeling/images/model_7.png)
+![model_7.png](https://github.com/ananya-icandoit/house-sales-modeling/main/images/model_7.png)
 
 ## Regression Results
 
@@ -108,7 +108,7 @@ The 4 assumptions of linear regression are as follows:
 * Equal Variance (Homoscedasticity)   
 
 ### Checking for Linearity
-![regression_plot.png](https://github.com/ananya-icandoit/house-sales-modeling/images/regresion_plot.png)
+![regression_plot.png](https://github.com/ananya-icandoit/house-sales-modeling/main/images/regresion_plot.png)
 
 The regression plot shows an overall linear relationship between the true price values and the predicted price values, thus indicating that the model is relatively accurate.
 
@@ -123,12 +123,12 @@ Additionally, some of the predictors in my models are inherently related, such a
 Nevertheless, multicollinearity is a violation of one of the 4 assumptions of linear regression, and therefore, it is crucial to proceed with caution when drawing conclusions on the basis of these predictors.
 
 ### Checking for Normality of Residuals
-![qq_plot.png](https://github.com/ananya-icandoit/house-sales-modeling/images/qq-plot.png)
+![qq_plot.png](https://github.com/ananya-icandoit/house-sales-modeling/main/images/qq-plot.png)
 
 This Q-Q plot indicates that the residuals are normally distributed, and thus, the model does not violate the assumption of normality.
 
 ### Plotting residuals and checking for Homoscedasticity
-![resid_plot_.png](https://github.com/ananya-icandoit/house-sales-modeling/images/residual_plot_.png)
+![resid_plot_.png](https://github.com/ananya-icandoit/house-sales-modeling/main/images/residual_plot_.png)
 
 This residual plot indicates that overall the residuals are homoscedastic (i.e., the relationship appears linear, and for the most part, there is no fanning of the points). Nevertheless, it is significant to note that as the price predictions increase past the price of around 850,000 USD, the points begin to fan out, indicating a potential problem. Therefore, when the model predicts a price larger than 850,000 USD, it is important to take into account this shortcoming of the model.
 
@@ -138,7 +138,7 @@ This residual plot indicates that overall the residuals are homoscedastic (i.e.,
 
 Compared to houses that are not on a waterfront, we see an associated increase of about 67.37% in price for houses that are on a waterfront.
 
-![price_x_waterfront.png](https://github.com/ananya-icandoit/house-sales-modeling/images/price_x_waterfront.png)
+![price_x_waterfront.png](https://github.com/ananya-icandoit/house-sales-modeling/main/images/price_x_waterfront.png)
 
 _Note_: The graph above does not depict an _exact_ 67.37% increase.
 
@@ -146,7 +146,7 @@ _Note_: The graph above does not depict an _exact_ 67.37% increase.
 
 For every increase in 1 standard deviation of latitude, the price increases by 22%. Similarly, for every increase in 1 standard deviation of longitude, the price decreases by 19.14%.
 
-![price_x_lat-long.png](https://github.com/ananya-icandoit/house-sales-modeling/images/price_x_lat-long.png)
+![price_x_lat-long.png](https://github.com/ananya-icandoit/house-sales-modeling/main/images/price_x_lat-long.png)
 
 _Note_: An increase in latitude means going more north, and an increase in longitude means going more east. Therefore, the most expensive houses should be in the northwest of King County, and the least expensive houses should be in the southeast of King County.
 
@@ -197,7 +197,7 @@ In addition to adding more recent data to my model, potential next steps could b
 
 ## For More Information
 
-<br /> For a more concise summary, please review my [presentation](https://github.com/ananya-icandoit/house-sales-modeling/presentation.pdf)
+<br /> For a more concise summary, please review my [presentation](https://github.com/ananya-icandoit/house-sales-modeling/main/presentation.pdf)
 
 <br />
 For any additional questions, please contact Jordana Tepper at <a href="mailto:ananyakambhampati03@gmail.com@gmail.com">ananyakambhampati03@gmail.com</a> 
